@@ -1,0 +1,70 @@
+table {
+  width: auto; 
+  border-collapse: collapse;
+  margin: 20px ;
+  font-family: Arial, sans-serif;
+  background-color: white;
+ 
+}
+
+th, td {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border: 1px solid white;
+  box-sizing: border-box; 
+}
+
+.highlighted-cell {
+  background-color: green; 
+  
+}
+
+.highlighted-celld {
+  background-color: red; 
+  
+}
+
+body {
+  background-image: url("assets/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+td img {
+  position: relative;
+  z-index: 2;
+}
+
+img {
+  pointer-events: none;
+}
+
+#jatek {
+  clear: both;
+}
+
+#map {
+  float: left;
+}
+
+#infok {
+  margin-top: 5px;
+  float: left;
+  margin-left: 40px;
+}
+#kuldi1 {
+  display: inline-block;
+  }
+#kuldi2 {
+display: inline-block;
+}
+
+#kuldi3 {
+  display: inline-block;
+  }
+#kuldi4 {
+display: inline-block;
+}
